@@ -36,5 +36,9 @@
             {{ $slot }}
         </main>
     </div>
+
+    <x-dropdown-link href="{{ route('your.route.name') }}">
+        Enlace de dropdown
+    </x-dropdown-link>
 </body>
 </html>
